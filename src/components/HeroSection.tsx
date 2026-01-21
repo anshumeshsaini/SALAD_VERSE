@@ -86,22 +86,7 @@ export const HeroSection = () => {
         transition={{ type: "spring", damping: 30 }}
       />
 
-      {/* Decorative icons */}
-      <motion.div
-        className="absolute top-[25%] right-[20%] opacity-20"
-        animate={{ y: [-10, 10, -10], rotate: [0, 5, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <Leaf className="w-16 h-16 text-gold" />
-      </motion.div>
-
-      <motion.div
-        className="absolute bottom-[30%] left-[15%] opacity-15"
-        animate={{ y: [10, -15, 10], rotate: [0, -5, 0] }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-      >
-        <Sparkles className="w-12 h-12 text-cream" />
-      </motion.div>
+    
 
       {/* Main Content */}
       <motion.div

@@ -4,26 +4,27 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "The Royal Salad has transformed my wellness routine. It's not just food—it's an experience that makes me feel like royalty every single day.",
-    author: "Alexandra Chen",
-    title: "CEO, Lumina Ventures",
+    quote: "Saladverse has completely changed how I look at healthy food. Fresh ingredients, perfect balance, and consistency every single time. This is lifestyle nutrition done right.",
+    author: "Amit Sharma",
+    title: "Business Owner, Mathura",
   },
   {
-    quote: "I've tried every premium meal service. Nothing compares to the attention to detail and quality here. The concierge service is exceptional.",
-    author: "Marcus Williams",
-    title: "Private Equity Partner",
+    quote: "I’ve tried multiple healthy food brands, but Saladverse stands out. The quality, hygiene, and customization are exactly what modern Indian consumers expect.",
+    author: "Neha Agarwal",
+    title: "Chartered Accountant, Mathura",
   },
   {
-    quote: "Fresh, sophisticated, and truly luxurious. My personal trainer and nutritionist both approve. This is the gold standard of healthy eating.",
-    author: "Sophia Laurent",
-    title: "Fashion Director",
+    quote: "Clean, nutritious, and genuinely satisfying. My fitness coach recommended Saladverse, and now it’s part of my daily routine.",
+    author: "Rohit Verma",
+    title: "Fitness Enthusiast, Mathura",
   },
   {
-    quote: "The bespoke salad builder alone is worth it. They understand that at this level, personalization isn't a luxury—it's expected.",
-    author: "James Morrison",
-    title: "Founder & Investor",
+    quote: "What I love most about Saladverse is the attention to detail. From fresh produce to smart portioning, it feels thoughtfully crafted for health-conscious people.",
+    author: "Pooja Mishra",
+    title: "Entrepreneur, Mathura",
   },
 ];
+
 
 export const TestimonialsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

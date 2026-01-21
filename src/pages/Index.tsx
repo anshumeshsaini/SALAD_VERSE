@@ -18,7 +18,7 @@ const Index = () => {
       <AboutSection />
       <WeeklyMenuSection />
       <SubscriptionSelector />
-      <SaladBuilder />
+
       <BenefitsSection />
       <section id="story">
         <StorySection />

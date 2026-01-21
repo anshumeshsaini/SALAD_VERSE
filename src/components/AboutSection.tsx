@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import heroSalad from "@/assets/hero-salad.jpg";
+import heroSalad from "@/assets/about.png";
 
 export const AboutSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -42,7 +42,7 @@ export const AboutSection = () => {
               transition={{ delay: 0.4 }}
             >
               <div className="text-center">
-                <p className="font-display text-4xl text-primary mb-1">15K+</p>
+                <p className="font-display text-4xl text-primary mb-1">150+</p>
                 <p className="text-xs text-muted-foreground uppercase tracking-wider">
                   Salads Delivered
                 </p>

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Linkedin, Clock, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/dunkey logo.png";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -35,7 +36,18 @@ export const Footer = () => {
             viewport={{ once: true }}
           >
             <h3 className="font-display text-2xl text-cream mb-4">
-              Royal<span className="text-gold">Salad</span>
+            <motion.a
+  href="#"
+  className="font-display text-xl md:text-2xl flex items-center"
+
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+>
+  <img
+    src={logo}
+    alt="Logo"
+    className="h-8 md:h-28 lg:h-28 w-auto object-contain"
+  />
+</motion.a>
             </h3>
             <p className="text-sm text-cream/60 leading-relaxed mb-4">
               The pinnacle of organic luxury. 

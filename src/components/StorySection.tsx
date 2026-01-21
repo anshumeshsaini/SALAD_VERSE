@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { Sprout, Truck, Utensils, Sparkles } from "lucide-react";
 
+
 const steps = [
   {
     icon: <Sprout className="w-6 h-6" />,
@@ -16,12 +17,12 @@ const steps = [
   {
     icon: <Truck className="w-6 h-6" />,
     title: "Concierge Delivery",
-    description: "Your salad arrives in temperature-controlled luxury packaging, timed precisely to your schedule.",
+    description: "Your salad arrives in temperature-controlled premium packaging, timed precisely to your schedule.",
   },
   {
     icon: <Utensils className="w-6 h-6" />,
-    title: "The Royal Experience",
-    description: "Unwrap, indulge, and nourish. Every bite a testament to uncompromising quality.",
+    title: "The Saladverse Experience",
+    description: "Unwrap, indulge, and nourish. Every bite reflects our commitment to freshness, balance, and quality.",
   },
 ];
 

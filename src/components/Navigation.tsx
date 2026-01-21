@@ -6,7 +6,7 @@ import logo from "@/assets/dunkey logo.png";
 
 const navLinks = [
   { label: "Experience", href: "#subscription" },
-  { label: "Craft Your Salad", href: "#builder" },
+
   { label: "Our Story", href: "#story" },
 ];
 
