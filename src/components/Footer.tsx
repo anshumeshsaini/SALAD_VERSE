@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Instagram, Facebook, Linkedin, Clock, MapPin, Phone } from "lucide-react";
+import { Instagram, Facebook, Linkedin, Clock, Mail, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/dunkey logo.png";
 
@@ -111,15 +111,15 @@ export const Footer = () => {
                 href="mailto:concierge@royalsalad.com"
                 className="flex items-center gap-2 text-sm text-cream/60 hover:text-gold transition-colors"
               >
-                <MapPin className="w-4 h-4" />
-                concierge@royalsalad.com
+                <Mail className="w-4 h-4" />
+           saladversemathura@gmail.com
               </a>
             </div>
             <div className="flex gap-4 mt-6">
               {[
-                { Icon: Instagram, url: "https://instagram.com" },
-                { Icon: Facebook, url: "https://facebook.com" },
-                { Icon: Linkedin, url: "https://linkedin.com" },
+                { Icon: Instagram, url: "https://www.instagram.com/saladversemathura?igsh=MWkzdWFzbmZwbWRqMg==&utm_source=ig_contact_invite" },
+
+
               ].map(({ Icon, url }, i) => (
                 <motion.a
                   key={i}
