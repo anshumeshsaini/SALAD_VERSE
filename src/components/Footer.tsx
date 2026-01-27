@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Instagram, Facebook, Linkedin, Clock, Mail, Phone } from "lucide-react";
+import {  Facebook, Linkedin, Clock, Mail, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/dunkey logo.png";
 
@@ -115,25 +115,7 @@ export const Footer = () => {
            saladversemathura@gmail.com
               </a>
             </div>
-            <div className="flex gap-4 mt-6">
-              {[
-                { Icon: Instagram, url: "https://www.instagram.com/saladversemathura?igsh=MWkzdWFzbmZwbWRqMg==&utm_source=ig_contact_invite" },
-
-
-              ].map(({ Icon, url }, i) => (
-                <motion.a
-                  key={i}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center text-cream/60 hover:bg-gold hover:text-primary-dark transition-all duration-300"
-                  whileHover={{ scale: 1.1, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Icon className="w-4 h-4" />
-                </motion.a>
-              ))}
-            </div>
+            
           </motion.div>
 
           {/* WhatsApp CTA */}

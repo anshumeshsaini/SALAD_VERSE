@@ -1,55 +1,43 @@
 import { motion } from "framer-motion";
 import { Calendar, Clock, Star } from "lucide-react";
 
-import saladMonday from "@/assets/salad-monday.jpg";
-import saladTuesday from "@/assets/salad-tuesday.jpg";
-import saladWednesday from "@/assets/salad-wednesday.jpg";
+import foxtail from "@/assets/foxtail.png";
+import organe from "@/assets/organe.png";
+import cottage from "@/assets/Cottagecheese.png";
 import saladThursday from "@/assets/salad-thursday.jpg";
-import saladFriday from "@/assets/salad-friday.jpg";
+import mexican from "@/assets/salad-friday.jpg";
 import saladSaturday from "@/assets/salad-saturday.jpg";
+import saladmonday from "@/assets/Cottagecheese.png";
 
 const weeklyMenu = [
   {
-    day: "Monday",
-    name: "Mediterranean Royale",
-    description: "Grilled chicken, feta, olives, cherry tomatoes with cream dressing",
-    image: saladMonday,
-    highlight: "Rich in protein",
+    name: "Mexican Tri Beans Salad",
+    ingredients:
+      "Chickpea, Black Chana, Kidney Beans, Lobia Beans, Lettuce, Red Capsicum, Yellow Capsicum, Corn, Green Coriander, Onion (Optional) with Chipotle Dressing",
+    nutrition: "K.Cal 325 · Protein 15gm · Carbs 40gm · Fat 15gm · Fiber 11gm",
+    image: mexican,
   },
   {
-    day: "Tuesday",
-    name: "Tropical Quinoa Bowl",
-    description: "Quinoa, cucumber, red peppers, pineapple with golden mustard",
-    image: saladTuesday,
-    highlight: "Vitamin C boost",
+    name: "Cottage Cheese & Grilled Veggie Salad",
+    ingredients:
+      "Lettuce, Red Capsicum Grilled, Broccoli Grilled, Carrot Grilled, Paneer Grilled, Mushroom Grilled, Jalapeno with Balsamic Vinaigrette Dressing",
+    nutrition:
+      "K.Cal 285.2 · Protein 17.3gm · Carbs 19.9gm · Fat 16.1gm · Fiber 11gm",
+    image: cottage,
   },
   {
-    day: "Wednesday",
-    name: "Autumn Harvest",
-    description: "Carrots, apple, orange, beetroot, walnuts with herb vinaigrette",
-    image: saladWednesday,
-    highlight: "Antioxidant rich",
+    name: "Foxtail Milleti Pineapple Salad",
+    ingredients:
+      "Quinoa, Pineapple, Red Capsicum, Persian Cucumber, Green Coriander, Feta Cheese with Jalapeno Pineapple Cilantro Dressing",
+    nutrition: "K.Cal 320 · Protein 19gm · Carbs 30gm · Fat 12gm · Fiber 6gm",
+    image: foxtail,
   },
   {
-    day: "Thursday",
-    name: "Greek Goddess",
-    description: "Falafel, feta, olives, cucumber, tomatoes with tahini",
-    image: saladThursday,
-    highlight: "Plant protein",
-  },
-  {
-    day: "Friday",
-    name: "Protein Power Bowl",
-    description: "Mixed beans, chickpeas, corn, peppers with turmeric dressing",
-    image: saladFriday,
-    highlight: "High fiber",
-  },
-  {
-    day: "Saturday",
-    name: "Omega Supreme",
-    description: "Grilled salmon, avocado, edamame, mango with miso ginger",
-    image: saladSaturday,
-    highlight: "Omega-3 rich",
+    name: "Orange Beet Salad",
+    ingredients:
+      "Vitamin C, Persian Cucumber, Beetroot, Apple, Carrot, Orange, Coriander, Lettuce, Walnut, Pomegranate, Feta Cheese with Orange Ginger Vinaigrette",
+    nutrition: "K.Cal 320 · Protein 14gm · Carbs 40gm · Fat 18gm · Fiber 5gm",
+    image: organe,
   },
 ];
 
